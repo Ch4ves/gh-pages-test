@@ -1,0 +1,89 @@
+
+header.header {
+    background: no-repeat left/cover url(https://moacirmoda.com/wp-content/uploads/2017/10/header.jpg);
+    display: fill;
+    height: 200px;
+    min-width: 120px;
+    align-items: center;
+    
+   
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+     width: 100%;
+
+  }
+  
+  li {
+    border-right: 1px solid #bbb;
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ 
+  li a:hover {
+    background-color: #4CAF50;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+
+
+  h1{
+      color: white;
+      text-align: center;
+  }
+
+  h2{
+      color: white;
+  }
+
+  body{
+      background-color: black;
+  }
+
+ 
+  main {
+    font-style: sans-serif;
+        
+  }
+
+  main p{
+    color: aliceblue;
+}
+
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+    
+
+}
+footer p{
+    color: white;
+    float: center;
+}
+
+footer a {
+    color: white;
+ 
+}
